@@ -10,15 +10,26 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            
+            NavigationView {
+                List {
+                    ForEach(myFavorites) { favorite in
+                        Section(header: Text(favorite.title)){
+                            ForEach(favorite.elements) {
+                                element in
+                                NavigationLink(destination:  DetailView(chosenElement: element)) // bu kod diğer sayfaya geçmeyi ve veri göndermeye yarıyor
+                                {
+                                    Text(element.name)
+                                }
+                            }
+                        }
+                    }
+                }.navigationTitle("Favorite Book")
+            }
+            .padding()
         }
-        .padding()
     }
 }
-
 #Preview {
     ContentView()
 }

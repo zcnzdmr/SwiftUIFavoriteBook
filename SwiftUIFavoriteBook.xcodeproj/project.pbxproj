@@ -11,6 +11,8 @@
 		F5B92C6A2C4FD31F00CEB0E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B92C692C4FD31F00CEB0E4 /* ContentView.swift */; };
 		F5B92C6C2C4FD32100CEB0E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5B92C6B2C4FD32100CEB0E4 /* Assets.xcassets */; };
 		F5B92C6F2C4FD32100CEB0E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5B92C6E2C4FD32100CEB0E4 /* Preview Assets.xcassets */; };
+		F5B92C762C4FD36800CEB0E4 /* FavoriteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B92C752C4FD36800CEB0E4 /* FavoriteModel.swift */; };
+		F5B92C782C4FE6C300CEB0E4 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B92C772C4FE6C300CEB0E4 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		F5B92C692C4FD31F00CEB0E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F5B92C6B2C4FD32100CEB0E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5B92C6E2C4FD32100CEB0E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5B92C752C4FD36800CEB0E4 /* FavoriteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteModel.swift; sourceTree = "<group>"; };
+		F5B92C772C4FE6C300CEB0E4 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				F5B92C672C4FD31F00CEB0E4 /* SwiftUIFavoriteBookApp.swift */,
+				F5B92C752C4FD36800CEB0E4 /* FavoriteModel.swift */,
+				F5B92C772C4FE6C300CEB0E4 /* DetailView.swift */,
 				F5B92C692C4FD31F00CEB0E4 /* ContentView.swift */,
 				F5B92C6B2C4FD32100CEB0E4 /* Assets.xcassets */,
 				F5B92C6D2C4FD32100CEB0E4 /* Preview Content */,
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5B92C762C4FD36800CEB0E4 /* FavoriteModel.swift in Sources */,
+				F5B92C782C4FE6C300CEB0E4 /* DetailView.swift in Sources */,
 				F5B92C6A2C4FD31F00CEB0E4 /* ContentView.swift in Sources */,
 				F5B92C682C4FD31F00CEB0E4 /* SwiftUIFavoriteBookApp.swift in Sources */,
 			);
